@@ -25,3 +25,8 @@ model managers - `<class_name>.objects` to access model's manager, which in turn
 allows us to perform actions on the DB; `<class_name>.objects.create(**kwatgs)` to 
 create a record in DB; `<class_name>.objects.all()`; `<class_name>.objects.filter(...)`
 these commands return `queryset` object
+
+`views` are all about handling web requests and sending responses.
+context is the way to pass information to templates
+
+
