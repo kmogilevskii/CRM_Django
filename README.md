@@ -7,6 +7,8 @@ python3 manage.py startapp leads
 python3 manage.py makemigrations
 python3 manage.py shell 
 python3 manage.py createsuperuser
+
+createdb djcrm_db
 ```
 
 `migrate` command that applies all the changes, that you have, to the database
