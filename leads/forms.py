@@ -55,3 +55,12 @@ class LeadCategoryUpdateForm(forms.ModelForm):
         fields = (
             'category',
         )
+
+
+class FollowUpModelForm(forms.ModelForm):
+    class Meta:
+        model = FollowUp
+        fields = (
+            'notes',
+            'file'
+        )
